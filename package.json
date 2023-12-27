@@ -1,8 +1,11 @@
 {
   "name": "react-native-dialpad",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Effortlessly capture USA-format phone numbers with the React Native dialpad component, streamlining user input in your mobile applications.",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "react",
     "expo",
@@ -22,5 +25,8 @@
     "expo-linear-gradient": "~12.3.0",
     "react-hook-form": "^7.49.2",
     "react-native-mask-input": "^1.2.3"
+  },
+  "repository": {
+    "url": "https://github.com/thereddycr/React-Native-Dialpad.git"
   }
 }
